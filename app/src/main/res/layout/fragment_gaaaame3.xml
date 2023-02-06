@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bbbbaaack"
+    android:layout_height="match_parent"
+    tools:context=".gaaaaaaememem.Gaaaame3Fragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gthgtiuhtggtgtuhgt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/rhurhrhfhfrhfrufr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/montserrat_black"
+        android:gravity="center"
+        android:lines="1"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        android:textColor="#F6CACA"
+        app:layout_constraintEnd_toEndOf="@id/gtlkngtgtgthgtutg"
+        app:layout_constraintStart_toStartOf="@id/gtijtogtihgtutg"
+        app:layout_constraintTop_toTopOf="@id/gtnkgtntghuhgt" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/ffrhhgtiugthugthugt"
+        app:layout_constraintEnd_toEndOf="@id/gtlkngtgtgthgtutg"
+        app:layout_constraintStart_toStartOf="@id/gtijtogtihgtutg"
+        app:layout_constraintTop_toBottomOf="@id/gtbgtbgtgthgthugt"
+        app:layout_constraintBottom_toTopOf="@id/btn_play_gameeee">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_about_enemy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/open_sans_bold"
+            android:paddingStart="16dp"
+            android:textSize="12sp"
+            android:text="@string/gtgtgttgtggt"
+            android:textColor="#B799DF"
+            />
+
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/frhuihhhrf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gtijtogtihgtutg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gtlkngtgtgthgtutg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gtnkgtntghuhgt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+
+    <ImageView
+        android:id="@+id/gtbgtbgtgthgthugt"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:padding="12dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/e4"
+        app:layout_constraintEnd_toEndOf="@id/gtlkngtgtgthgtutg"
+        app:layout_constraintStart_toStartOf="@id/gtijtogtihgtutg"
+        app:layout_constraintTop_toBottomOf="@id/rhurhrhfhfrhfrufr" />
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_play_gameeee"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_black"
+        android:text="go next"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:textColor="#F6CACA"
+        app:layout_constraintEnd_toEndOf="@id/gtlkngtgtgthgtutg"
+        app:layout_constraintStart_toStartOf="@id/gtijtogtihgtutg"
+        app:layout_constraintBottom_toBottomOf="@id/gthgtiuhtggtgtuhgt" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

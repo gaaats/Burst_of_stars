@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fiiiiiiilter_naviiii"
+    app:startDestination="@id/maaaaaainFragment">
+
+    <fragment
+        android:id="@+id/maaaaaainFragment"
+        android:name="com.moonton.mo.ffffffrrrraaam.MaaaaaainFragment"
+        android:label="fragment_maaaaaain"
+        tools:layout="@layout/fragment_maaaaaain" >
+        <action
+            android:id="@+id/action_maaaaaainFragment_to_cooooontryFragment"
+            app:destination="@id/cooooontryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cooooontryFragment"
+        android:name="com.moonton.mo.ffffffrrrraaam.CooooontryFragment"
+        android:label="fragment_cooooontry"
+        tools:layout="@layout/fragment_cooooontry" >
+        <action
+            android:id="@+id/action_cooooontryFragment_to_seeeeeecccMaaaaaaaainFragment"
+            app:destination="@id/seeeeeecccMaaaaaaaainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seeeeeecccMaaaaaaaainFragment"
+        android:name="com.moonton.mo.ffffffrrrraaam.SeeeeeecccMaaaaaaaainFragment"
+        android:label="fragment_seeeeeeccc_maaaaaaaain"
+        tools:layout="@layout/fragment_seeeeeeccc_maaaaaaaain" >
+        <action
+            android:id="@+id/action_seeeeeecccMaaaaaaaainFragment_to_prrrrreeeFiiiiiiiiiiFragment"
+            app:destination="@id/prrrrreeeFiiiiiiiiiiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/prrrrreeeFiiiiiiiiiiFragment"
+        android:name="com.moonton.mo.ffffffrrrraaam.PrrrrreeeFiiiiiiiiiiFragment"
+        android:label="fragment_prrrrreee_fiiiiiiiiii"
+        tools:layout="@layout/fragment_prrrrreee_fiiiiiiiiii" >
+        <action
+            android:id="@+id/action_prrrrreeeFiiiiiiiiiiFragment_to_fiiiiiiiillllllltraaaaFragment"
+            app:destination="@id/fiiiiiiiillllllltraaaaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fiiiiiiiillllllltraaaaFragment"
+        android:name="com.moonton.mo.ffffffrrrraaam.FiiiiiiiillllllltraaaaFragment"
+        android:label="fragment_fiiiiiiiillllllltraaaa"
+        tools:layout="@layout/fragment_fiiiiiiiillllllltraaaa" />
+</navigation>

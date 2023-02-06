@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/plaaaaaaaaaaaay"
+    app:startDestination="@id/gameStartFragment">
+
+    <fragment
+        android:id="@+id/gameStartFragment"
+        android:name="com.moonton.mo.gaaaaaaememem.GameStartFragment"
+        android:label="fragment_game_start"
+        tools:layout="@layout/fragment_game_start" >
+        <action
+            android:id="@+id/action_gameStartFragment_to_gaaame2Fragment"
+            app:destination="@id/gaaame2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaaame2Fragment"
+        android:name="com.moonton.mo.gaaaaaaememem.Gaaame2Fragment"
+        android:label="fragment_gaaame"
+        tools:layout="@layout/fragment_gaaame" >
+        <action
+            android:id="@+id/action_gaaame2Fragment_to_gaaaame3Fragment"
+            app:destination="@id/gaaaame3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaaaame3Fragment"
+        android:name="com.moonton.mo.gaaaaaaememem.Gaaaame3Fragment"
+        android:label="fragment_gaaaame3"
+        tools:layout="@layout/fragment_gaaaame3" >
+        <action
+            android:id="@+id/action_gaaaame3Fragment_to_gaaaaame4Fragment"
+            app:destination="@id/gaaaaame4Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaaaaame4Fragment"
+        android:name="com.moonton.mo.gaaaaaaememem.Gaaaaame4Fragment"
+        android:label="fragment_gaaaaame4"
+        tools:layout="@layout/fragment_gaaaaame4" >
+        <action
+            android:id="@+id/action_gaaaaame4Fragment_to_gaaaaaaaame5Fragment"
+            app:destination="@id/gaaaaaaaame5Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaaaaaaaame5Fragment"
+        android:name="com.moonton.mo.gaaaaaaememem.Gaaaaaaaame5Fragment"
+        android:label="fragment_gaaaaaaaame5"
+        tools:layout="@layout/fragment_gaaaaaaaame5" >
+        <action
+            android:id="@+id/action_gaaaaaaaame5Fragment_to_gameStartFragment"
+            app:destination="@id/gameStartFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/gaaaaaaaame5Fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

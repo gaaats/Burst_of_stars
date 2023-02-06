@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bbbbaaack"
+    tools:context=".gaaaaaaememem.GameStartFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gtojjgtjgtjtg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <ImageView
+        android:id="@+id/img_game_elem_2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/diiiimond"
+        app:layout_constraintBottom_toTopOf="@id/img_game_main_logo"
+        app:layout_constraintEnd_toStartOf="@id/img_game_elem_3"
+        app:layout_constraintStart_toEndOf="@id/img_game_elem_1" />
+
+    <ImageView
+        android:id="@+id/img_game_elem_3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/diiiimond"
+        app:layout_constraintBottom_toTopOf="@id/img_game_main_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/img_game_elem_2" />
+
+    <ImageView
+        android:id="@+id/img_game_elem_4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/diiiimond"
+        app:layout_constraintEnd_toStartOf="@id/img_game_elem_5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_game_main_logo" />
+
+    <ImageView
+        android:id="@+id/img_game_elem_5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/diiiimond"
+        app:layout_constraintEnd_toStartOf="@id/img_game_elem_6"
+        app:layout_constraintStart_toEndOf="@id/img_game_elem_4"
+        app:layout_constraintTop_toBottomOf="@id/img_game_main_logo" />
+
+
+    <ImageView
+        android:id="@+id/img_game_elem_6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/diiiimond"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/img_game_elem_5"
+        app:layout_constraintTop_toBottomOf="@id/img_game_main_logo" />
+
+    <ImageView
+        android:id="@+id/img_game_elem_7"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/diiiimond"
+        app:layout_constraintBottom_toTopOf="@id/img_game_elem_4"
+        app:layout_constraintEnd_toEndOf="@id/img_game_elem_1"
+        app:layout_constraintStart_toStartOf="@id/img_game_elem_1"
+        app:layout_constraintTop_toBottomOf="@id/img_game_elem_1" />
+
+    <ImageView
+        android:id="@+id/img_game_elem_8"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/diiiimond"
+        app:layout_constraintBottom_toTopOf="@id/img_game_elem_6"
+        app:layout_constraintEnd_toEndOf="@id/img_game_elem_3"
+        app:layout_constraintStart_toStartOf="@id/img_game_elem_3"
+        app:layout_constraintTop_toBottomOf="@id/img_game_elem_3" />
+
+    <TextView
+        android:id="@+id/tv_text_helper"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#793CDA"
+        android:fontFamily="@font/opensans_extra_bold"
+        android:gravity="center"
+        android:text="collect all elements.\nwinn 2xBonus,\n\n you have 1 try"
+        android:textAllCaps="true"
+        android:textColor="#110337"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
+        app:layout_constraintStart_toStartOf="@id/fihhihrfhfrhrfhurf"
+        app:layout_constraintTop_toBottomOf="@id/img_game_elem_5" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/gtngthtighgtiugthgt"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/sasha_ic_rectangle_46"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="center"
+        android:lines="1"
+        android:maxLines="1"
+        android:text="2655"
+        android:textAllCaps="true"
+        android:textColor="#F6CACA"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vert_95"
+        app:layout_constraintStart_toEndOf="@id/fihhihrfhfrhrfhurf"
+        app:layout_constraintTop_toBottomOf="@id/tv_total_balance_text" />
+
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/fihhihrfhfrhrfhurf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.70" />
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hyhyyhhyhyhyhy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.30" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_hor_90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.90" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vert_95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vert_50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <TextView
+        android:id="@+id/tv_total_balance_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_black"
+        android:text="your best score"
+        android:textAllCaps="true"
+        android:textColor="#D8D1FB"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/gtojjgtjgtjtg" />
+
+    <ImageView
+        android:id="@+id/img_game_main_logo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/syyymbol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/img_game_elem_1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/diiiimond"
+        app:layout_constraintBottom_toTopOf="@id/img_game_main_logo"
+        app:layout_constraintEnd_toStartOf="@id/img_game_elem_2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
